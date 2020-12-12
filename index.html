@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="TODO-list"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:description" content="a Basic TODO list"/>
+    <meta name="theme-color" content="color">
+    <link rel="icon" href="imgs/logo.png">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Andika+New+Basic:wght@700&display=swap" rel="stylesheet">
+    <title>TO-DO list</title>
+</head>
+<body>
+    <div class="todo">    
+        <div class="todo-content">
+            <h1>Todo list:</h1>
+            <div class="todo-adding-container">
+                <input type="text" placeholder="I will ..."  id="box">
+                <div class="button"><a onclick="add_item()" class="addBotton">+</a></div>
+            </div> 
+            <div class="row"> 
+                <ul id="list_item"> 
+                </ul> 
+            </div> 
+        </div>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
